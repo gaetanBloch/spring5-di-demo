@@ -15,7 +15,6 @@ public class PropertyConfig {
 
     @Autowired
     Environment environment;
-
     @Value("${guru.username}")
     String user;
     @Value("${guru.password}")
